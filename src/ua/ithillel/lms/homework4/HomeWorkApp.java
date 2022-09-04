@@ -2,6 +2,35 @@ package ua.ithillel.lms.homework4;
 
 public class HomeWorkApp {
 
+    public static void main(String[] args) {
+
+        printThreeWords();
+        System.out.println("----------------------------------------");
+
+        checkSumSign();
+        System.out.println("----------------------------------------");
+
+        printColor();
+        System.out.println("----------------------------------------");
+
+        compareNumbers();
+        System.out.println("----------------------------------------");
+
+        System.out.println(sumChecker(5, 4));
+        System.out.println("----------------------------------------");
+
+        numberChecker(-5);
+        System.out.println("----------------------------------------");
+
+        System.out.println(numberChecker2(4));
+        System.out.println("----------------------------------------");
+
+        printer("Hello world", 5);
+        System.out.println("----------------------------------------");
+
+        System.out.println(yearChecker(2100));
+    }
+
     public static void printThreeWords() {
         System.out.println("Orange");
         System.out.println("Banana");
@@ -79,34 +108,5 @@ public class HomeWorkApp {
             }
         }
         return false;
-    }
-
-    public static void main(String[] args) {
-
-        printThreeWords();
-        System.out.println("----------------------------------------");
-
-        checkSumSign();
-        System.out.println("----------------------------------------");
-
-        printColor();
-        System.out.println("----------------------------------------");
-
-        compareNumbers();
-        System.out.println("----------------------------------------");
-
-        System.out.println(sumChecker(5, 4));
-        System.out.println("----------------------------------------");
-
-        numberChecker(-5);
-        System.out.println("----------------------------------------");
-
-        System.out.println(numberChecker2(4));
-        System.out.println("----------------------------------------");
-
-        printer("Hello world", 5);
-        System.out.println("----------------------------------------");
-
-        System.out.println(yearChecker(2100));
     }
 }
